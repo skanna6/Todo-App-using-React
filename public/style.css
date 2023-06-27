@@ -1,0 +1,102 @@
+body{
+    background-color: rgba(255, 213, 0, 0.723);
+    /* min-height: 70vh; */
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px; */
+
+    
+}
+
+.main{
+    margin-top: 100px;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    min-height:500px ;
+    min-width: 400px;
+    background: white;
+    background-image: radial-gradient(grey 7.2%,transparent 0);
+    background-size: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 7px 2px black;
+    box-sizing: border-box;
+
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.heading > h1{
+    transform: rotate(2deg);
+    padding: 0.2rem 1.2rem;
+    border-radius: 20% 5% 20% 5% / 5% 20% 25% 20%;
+    background-color: rgb(243, 197, 14);
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.form > input{
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 0.5rem;
+    border-bottom-right-radius: 15px 7px ;
+    border-bottom-left-radius: 7px 15px;
+    border: transparent;
+    font-size: 1rem;
+    font-family: cursive;
+    color: hsla(260, 2%, 25%, 0.7);
+    width: 60%;
+    margin-bottom: 20px;
+    border-bottom: 7px rgb(243, 200, 11) dashed;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+button{
+    padding: 0;
+    border: none;
+    font-family: cursive;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+button span:hover{
+    background-color: rgb(243, 197, 14);
+    transition:0.3s;
+    color: white;
+}
+
+button > span{
+    display: block;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 2px solid hsl(198, 1%, 29%);
+}
+
+li{
+    text-align: left;
+    position: relative;
+    padding: 0.5rem;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: cursive;
+    
+
+
+}
